@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Kursovoi_Bozhik.Triangle">
+    <Position X="9.75" Y="1" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAEAAAAAAAADQAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kursovoi_Bozhik.Right_triangle">
+    <Position X="10" Y="4.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Right_triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kursovoi_Bozhik.Isosceles_triangle">
+    <Position X="4.75" Y="4.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Isosceles_triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kursovoi_Bozhik.Equilateral_triangle">
+    <Position X="15" Y="4.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Equilateral_triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

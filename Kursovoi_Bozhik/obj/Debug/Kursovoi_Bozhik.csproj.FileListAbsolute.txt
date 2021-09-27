@@ -1,0 +1,10 @@
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\obj\Debug\Kursovoi_Bozhik.csprojAssemblyReference.cache
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\obj\Debug\Kursovoi_Bozhik.Form1.resources
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\obj\Debug\Kursovoi_Bozhik.Properties.Resources.resources
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\obj\Debug\Kursovoi_Bozhik.csproj.GenerateResource.cache
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\obj\Debug\Kursovoi_Bozhik.csproj.CoreCompileInputs.cache
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\bin\Debug\Kursovoi_Bozhik.exe.config
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\bin\Debug\Kursovoi_Bozhik.exe
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\bin\Debug\Kursovoi_Bozhik.pdb
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\obj\Debug\Kursovoi_Bozhik.exe
+C:\Users\MAXIM\source\repos\Kursovoi_Bozhik\Kursovoi_Bozhik\obj\Debug\Kursovoi_Bozhik.pdb
