@@ -22,7 +22,7 @@ namespace Kursovoi_Bozhik
 
         public override double Area()
         {
-           // Console.WriteLine(length_b);
+          
             double area = 0;
             if (CheckTriangle(length_c))
             {
@@ -34,7 +34,8 @@ namespace Kursovoi_Bozhik
                 else
                     return 0;
             }
-            else {
+            else 
+            {
                 return 0;
             }
             

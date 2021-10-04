@@ -28,5 +28,12 @@
       <FileName>Equilateral_triangle.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Kursovoi_Bozhik.Form1">
+    <Position X="1.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>/2Uig8EAAWBAABaZMCGIaSBCIIZBDAAEEECBAAQBADI=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

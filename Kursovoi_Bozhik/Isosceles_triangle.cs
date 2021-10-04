@@ -24,7 +24,7 @@ namespace Kursovoi_Bozhik
             }
             else
             {
-                MessageBox.Show("Цей трикутник є правильним!", "Попередження");
+                length_b = length_a;
                 return length_a * 3.0;
             }
         }
@@ -38,7 +38,7 @@ namespace Kursovoi_Bozhik
                 if (ang == "60")
                 {
                     double area = (Pow(length_a, 2) * Sqrt(3)) / 4;
-                    MessageBox.Show("Цей трикутник є правильним!", "Попередження");
+                    length_b = length_a;
                     return area;
                 }
                 else

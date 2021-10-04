@@ -65,7 +65,6 @@ namespace Kursovoi_Bozhik
 
             double area = 0;
 
-
             if (CheckTriangle(length_c))
             {
                 area = (length_a * length_b * Sin(angle)) / 2;

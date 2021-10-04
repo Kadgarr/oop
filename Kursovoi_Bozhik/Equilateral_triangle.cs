@@ -39,6 +39,7 @@ namespace Kursovoi_Bozhik
         {
             if (CheckTriangle(length_c))
             {
+                
                 double area = (Pow(length_a, 2) * Sqrt(3)) / 4.0;
             
                 if (CheckMistake(area))
