@@ -21,6 +21,7 @@ namespace Kursovoi_Bozhik
             if ((angle/(PI / 180.0)).ToString() != "60")
             {
                 return base.Perimetr();
+
             }
             else
             {

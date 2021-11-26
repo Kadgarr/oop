@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Kursovoi_Bozhik.Triangle">
-    <Position X="9.75" Y="1" Width="4" />
+    <Position X="10" Y="1" Width="4" />
     <TypeIdentifier>
       <HashCode>AgAAIAAAAAAAAAAAEAAAAAAAADQAAAAAAAAAAQBAAAA=</HashCode>
       <FileName>Triangle.cs</FileName>
@@ -29,9 +29,122 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Kursovoi_Bozhik.Form1">
-    <Position X="1.5" Y="0.5" Width="2.75" />
+    <Position X="5.75" Y="1" Width="3" />
+    <Members>
+      <Field Name="but_add_priam" Hidden="true" />
+      <Method Name="but_add_priam_Click" Hidden="true" />
+      <Field Name="but_add_rivn" Hidden="true" />
+      <Method Name="but_add_rivn_Click" Hidden="true" />
+      <Field Name="but_add_rivnobed" Hidden="true" />
+      <Method Name="but_add_rivnobed_Click" Hidden="true" />
+      <Field Name="but_clear_1" Hidden="true" />
+      <Method Name="but_clear_1_Click" Hidden="true" />
+      <Field Name="but_downoload_priam" Hidden="true" />
+      <Method Name="but_downoload_priam_Click" Hidden="true" />
+      <Field Name="but_gen_1" Hidden="true" />
+      <Method Name="but_gen_1_Click" Hidden="true" />
+      <Field Name="but_gen_2" Hidden="true" />
+      <Method Name="but_gen_2_Click" Hidden="true" />
+      <Field Name="but_gen_3" Hidden="true" />
+      <Method Name="but_gen_3_Click" Hidden="true" />
+      <Method Name="but_save_Click" Hidden="true" />
+      <Field Name="but_save_priam" Hidden="true" />
+      <Field Name="but_save_rivn" Hidden="true" />
+      <Method Name="but_save_rivn_Click" Hidden="true" />
+      <Field Name="but_save_rivnobed" Hidden="true" />
+      <Method Name="but_save_rivnobed_Click" Hidden="true" />
+      <Field Name="but_upload_priam" Hidden="true" />
+      <Method Name="but_upload_priam_Click" Hidden="true" />
+      <Field Name="button_area_priam" Hidden="true" />
+      <Method Name="button_area_priam_Click" Hidden="true" />
+      <Field Name="button_area_rivn" Hidden="true" />
+      <Method Name="button_area_rivn_Click" Hidden="true" />
+      <Field Name="button_area_rivnobed" Hidden="true" />
+      <Method Name="button_area_rivnobed_Click" Hidden="true" />
+      <Field Name="button_clear_2" Hidden="true" />
+      <Method Name="button_clear_2_Click" Hidden="true" />
+      <Field Name="button_clear_3" Hidden="true" />
+      <Method Name="button_clear_3_Click" Hidden="true" />
+      <Field Name="button_delete" Hidden="true" />
+      <Method Name="button_delete_Click" Hidden="true" />
+      <Field Name="button_perim_priam" Hidden="true" />
+      <Method Name="button_perim_priam_Click" Hidden="true" />
+      <Field Name="button_perim_rivn" Hidden="true" />
+      <Method Name="button_perim_rivn_Click" Hidden="true" />
+      <Field Name="button_perim_rivnobed" Hidden="true" />
+      <Method Name="button_perim_rivnobed_Click" Hidden="true" />
+      <Field Name="button_priam_area" Hidden="true" />
+      <Method Name="button_priam_area_Click" Hidden="true" />
+      <Field Name="button_rivn_area" Hidden="true" />
+      <Method Name="button_rivn_area_Click" Hidden="true" />
+      <Field Name="button_rivnobed_area" Hidden="true" />
+      <Method Name="button_rivnobed_area_Click" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Method Name="comboBox1_SelectedValueChanged" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="Form1" Hidden="true" />
+      <Field Name="formatter" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label16" Hidden="true" />
+      <Field Name="label17" Hidden="true" />
+      <Field Name="label18" Hidden="true" />
+      <Field Name="label19" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label20" Hidden="true" />
+      <Field Name="label21" Hidden="true" />
+      <Field Name="label22" Hidden="true" />
+      <Field Name="label23" Hidden="true" />
+      <Field Name="label24" Hidden="true" />
+      <Field Name="label25" Hidden="true" />
+      <Field Name="label26" Hidden="true" />
+      <Field Name="label27" Hidden="true" />
+      <Field Name="label28" Hidden="true" />
+      <Field Name="label29" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label30" Hidden="true" />
+      <Field Name="label31" Hidden="true" />
+      <Field Name="label32" Hidden="true" />
+      <Field Name="label33" Hidden="true" />
+      <Field Name="label34" Hidden="true" />
+      <Field Name="label35" Hidden="true" />
+      <Field Name="label36" Hidden="true" />
+      <Field Name="label38" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="openFileDialog1" Hidden="true" />
+      <Field Name="saveFileDialog1" Hidden="true" />
+      <Field Name="textBox_priam_a" Hidden="true" />
+      <Field Name="textBox_priam_angle" Hidden="true" />
+      <Field Name="textBox_priam_area" Hidden="true" />
+      <Field Name="textBox_priam_b" Hidden="true" />
+      <Field Name="textBox_rivn_a" Hidden="true" />
+      <Field Name="textBox_rivn_angle" Hidden="true" />
+      <Field Name="textBox_rivn_area" Hidden="true" />
+      <Field Name="textBox_rivnobed_angle" Hidden="true" />
+      <Field Name="textBox_rivnobed_area" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBox14" Hidden="true" />
+      <Field Name="textBox15" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Field Name="textBox3" Hidden="true" />
+      <Field Name="textBox4" Hidden="true" />
+      <Field Name="textBox5" Hidden="true" />
+      <Field Name="textBox6" Hidden="true" />
+    </Members>
     <TypeIdentifier>
-      <HashCode>/2Uig8EAAWBAABaZMCGIaSBCIIZBDAAEEECBAAQBADI=</HashCode>
+      <HashCode>/2Uii8EAQ2BAABaYMCGIaaBCMIJBHAAEEECBAAQBADo=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>

@@ -11,13 +11,13 @@ namespace Kursovoi_Bozhik
     [Serializable]
     abstract class Triangle
     {
-        internal double length_a;
+        protected internal double length_a;
 
-        internal double length_b;
+        protected internal double length_b;
 
-        internal double length_c;
+        protected internal double length_c;
 
-        internal double angle;
+        protected internal double angle;
         public Triangle(double length_a, double length_b,double angle)
         {
             this.length_a = length_a;

@@ -37,11 +37,8 @@ namespace Kursovoi_Bozhik
                 Triangle triangle_right = new Right_triangle(double.Parse(textBox_priam_a.Text), double.Parse(textBox_priam_b.Text), double.Parse(textBox_priam_angle.Text));
                 textBox1.Text = String.Format("{0:f3}", triangle_right.Area());
 
-
                 //comboBox1.Items.Add($"Площадь: {triangle_right.Area()} --- Периметр: {triangle_right.Perimetr()}");
                 //triangle.Add(triangle_right);
-
-
             }
             catch
             {
@@ -108,6 +105,16 @@ namespace Kursovoi_Bozhik
             try
             {
                 Triangle triangle_isos = new Isosceles_triangle(double.Parse(textBox15.Text), double.Parse(textBox14.Text), double.Parse(textBox_rivnobed_angle.Text));
+                if ((triangle_isos.angle / (PI / 180.0)).ToString() == "60")
+                {
+                    MessageBox.Show("Цей трикутник є правильним!", "Попередження");
+                }
+                else
+                if ((triangle_isos.angle / (PI / 180.0)).ToString() == "90")
+                {
+                    MessageBox.Show("Цей трикутник є прямокутним!", "Попередження");
+                }
+                else
                 textBox3.Text = String.Format("{0:f3}", triangle_isos.Area());
 
             }
@@ -123,7 +130,17 @@ namespace Kursovoi_Bozhik
             try
             {
                 Triangle triangle_isos = new Isosceles_triangle(double.Parse(textBox15.Text), double.Parse(textBox14.Text), double.Parse(textBox_rivnobed_angle.Text));
-                textBox4.Text = String.Format("{0:f3}", triangle_isos.Perimetr());
+                if ((triangle_isos.angle / (PI / 180.0)).ToString() == "60")
+                {
+                    MessageBox.Show("Цей трикутник є правильним!", "Попередження");
+                }
+                else
+                if ((triangle_isos.angle / (PI / 180.0)).ToString() == "90")
+                {
+                    MessageBox.Show("Цей трикутник є прямокутним!", "Попередження");
+                }
+                else
+                    textBox4.Text = String.Format("{0:f3}", triangle_isos.Perimetr());
 
             }
             catch
@@ -193,7 +210,6 @@ namespace Kursovoi_Bozhik
                         {
 
                             formatter.Serialize(fs, triangles);
-
                             MessageBox.Show("Об'єкт серіалізовано");
                         }
                 }
@@ -222,16 +238,15 @@ namespace Kursovoi_Bozhik
                         using (FileStream fs = new FileStream(openFileDialog1.FileName, FileMode.Open, FileAccess.Read))
                         {
                             triangles = (List<Triangle>)formatter.Deserialize(fs);
-
                         }
                         foreach (Triangle tr in triangles)
                         {
-                            string ang = (tr.angle / (PI / 180.0)).ToString();
+                       
 
                             if (tr.GetType()==typeof(Right_triangle))
                                 comboBox1.Items.Add($"Площина: {String.Format("{0:f2}", tr.Area())}; кут: {tr.angle / (PI / 180)} -прямокут.");
                             else
-                            if(tr.GetType() == typeof(Equilateral_triangle)||(tr.GetType() == typeof(Isosceles_triangle) && ang=="60"))
+                            if(tr.GetType() == typeof(Equilateral_triangle))
                                 comboBox1.Items.Add($"Площина: {String.Format("{0:f2}", tr.Area())}; кут: {tr.angle / (PI / 180)} -правильний.");
                             else
                             if(tr.GetType()==typeof(Isosceles_triangle))
@@ -318,13 +333,23 @@ namespace Kursovoi_Bozhik
                 if (S > 0)
                 {
 
-                    triangles.Add(triangle_Isosceles);
-                    comboBox1.Items.Add($"Площина: {String.Format("{0:f2}", triangle_Isosceles.Area())}; кут: {triangle_Isosceles.angle / (PI / 180)} -рівнобедр.");
-                    if ((triangle_Isosceles.angle / (PI / 180.0)).ToString()=="60")
+
+                    if ((triangle_Isosceles.angle / (PI / 180.0)).ToString() == "60")
                     {
                         MessageBox.Show("Цей трикутник є правильним!", "Попередження");
                     }
-                    MessageBox.Show("Трикутник додано до списку!");
+                    else
+                    if((triangle_Isosceles.angle / (PI / 180.0)).ToString() == "90")
+                    {
+                        MessageBox.Show("Цей трикутник є прямокутним!", "Попередження");
+                    }
+                    else
+                    {
+                        triangles.Add(triangle_Isosceles);
+                        comboBox1.Items.Add($"Площина: {String.Format("{0:f2}", triangle_Isosceles.Area())}; кут: {triangle_Isosceles.angle / (PI / 180)} -рівнобедр.");
+                        MessageBox.Show("Трикутник додано до списку!");
+                    }
+                    
                 }
                 else
                 {

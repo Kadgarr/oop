@@ -95,11 +95,25 @@
             this.textBox_rivnobed_area = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button_area_priam
             // 
-            this.button_area_priam.Location = new System.Drawing.Point(203, 467);
+            this.button_area_priam.Location = new System.Drawing.Point(222, 466);
             this.button_area_priam.Name = "button_area_priam";
             this.button_area_priam.Size = new System.Drawing.Size(102, 35);
             this.button_area_priam.TabIndex = 0;
@@ -190,7 +204,7 @@
             // 
             // button_area_rivn
             // 
-            this.button_area_rivn.Location = new System.Drawing.Point(637, 467);
+            this.button_area_rivn.Location = new System.Drawing.Point(655, 467);
             this.button_area_rivn.Name = "button_area_rivn";
             this.button_area_rivn.Size = new System.Drawing.Size(102, 35);
             this.button_area_rivn.TabIndex = 12;
@@ -200,7 +214,7 @@
             // 
             // button_area_rivnobed
             // 
-            this.button_area_rivnobed.Location = new System.Drawing.Point(982, 467);
+            this.button_area_rivnobed.Location = new System.Drawing.Point(1003, 467);
             this.button_area_rivnobed.Name = "button_area_rivnobed";
             this.button_area_rivnobed.Size = new System.Drawing.Size(102, 35);
             this.button_area_rivnobed.TabIndex = 13;
@@ -210,7 +224,7 @@
             // 
             // button_perim_rivnobed
             // 
-            this.button_perim_rivnobed.Location = new System.Drawing.Point(982, 525);
+            this.button_perim_rivnobed.Location = new System.Drawing.Point(1003, 525);
             this.button_perim_rivnobed.Name = "button_perim_rivnobed";
             this.button_perim_rivnobed.Size = new System.Drawing.Size(102, 35);
             this.button_perim_rivnobed.TabIndex = 16;
@@ -220,7 +234,7 @@
             // 
             // button_perim_rivn
             // 
-            this.button_perim_rivn.Location = new System.Drawing.Point(637, 523);
+            this.button_perim_rivn.Location = new System.Drawing.Point(655, 523);
             this.button_perim_rivn.Name = "button_perim_rivn";
             this.button_perim_rivn.Size = new System.Drawing.Size(102, 35);
             this.button_perim_rivn.TabIndex = 15;
@@ -230,7 +244,7 @@
             // 
             // button_perim_priam
             // 
-            this.button_perim_priam.Location = new System.Drawing.Point(203, 524);
+            this.button_perim_priam.Location = new System.Drawing.Point(222, 523);
             this.button_perim_priam.Name = "button_perim_priam";
             this.button_perim_priam.Size = new System.Drawing.Size(102, 35);
             this.button_perim_priam.TabIndex = 14;
@@ -312,7 +326,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(165, 350);
+            this.label11.Location = new System.Drawing.Point(178, 350);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(32, 17);
             this.label11.TabIndex = 26;
@@ -320,7 +334,7 @@
             // 
             // textBox_priam_b
             // 
-            this.textBox_priam_b.Location = new System.Drawing.Point(203, 344);
+            this.textBox_priam_b.Location = new System.Drawing.Point(216, 344);
             this.textBox_priam_b.Multiline = true;
             this.textBox_priam_b.Name = "textBox_priam_b";
             this.textBox_priam_b.Size = new System.Drawing.Size(65, 26);
@@ -329,7 +343,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(272, 350);
+            this.label12.Location = new System.Drawing.Point(307, 353);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(42, 17);
             this.label12.TabIndex = 28;
@@ -337,7 +351,7 @@
             // 
             // textBox_priam_angle
             // 
-            this.textBox_priam_angle.Location = new System.Drawing.Point(320, 344);
+            this.textBox_priam_angle.Location = new System.Drawing.Point(355, 347);
             this.textBox_priam_angle.Multiline = true;
             this.textBox_priam_angle.Name = "textBox_priam_angle";
             this.textBox_priam_angle.ReadOnly = true;
@@ -348,7 +362,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(581, 353);
+            this.label13.Location = new System.Drawing.Point(599, 353);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(42, 17);
             this.label13.TabIndex = 34;
@@ -356,7 +370,7 @@
             // 
             // textBox_rivn_angle
             // 
-            this.textBox_rivn_angle.Location = new System.Drawing.Point(637, 347);
+            this.textBox_rivn_angle.Location = new System.Drawing.Point(655, 347);
             this.textBox_rivn_angle.Multiline = true;
             this.textBox_rivn_angle.Name = "textBox_rivn_angle";
             this.textBox_rivn_angle.ReadOnly = true;
@@ -384,7 +398,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(1053, 353);
+            this.label16.Location = new System.Drawing.Point(1085, 353);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(42, 17);
             this.label16.TabIndex = 40;
@@ -392,7 +406,7 @@
             // 
             // textBox_rivnobed_angle
             // 
-            this.textBox_rivnobed_angle.Location = new System.Drawing.Point(1101, 347);
+            this.textBox_rivnobed_angle.Location = new System.Drawing.Point(1133, 347);
             this.textBox_rivnobed_angle.Multiline = true;
             this.textBox_rivnobed_angle.Name = "textBox_rivnobed_angle";
             this.textBox_rivnobed_angle.Size = new System.Drawing.Size(65, 26);
@@ -401,7 +415,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(944, 353);
+            this.label17.Location = new System.Drawing.Point(959, 353);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(32, 17);
             this.label17.TabIndex = 38;
@@ -409,7 +423,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(982, 347);
+            this.textBox14.Location = new System.Drawing.Point(997, 347);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(65, 26);
@@ -505,7 +519,7 @@
             // 
             this.but_upload_priam.Location = new System.Drawing.Point(402, 22);
             this.but_upload_priam.Name = "but_upload_priam";
-            this.but_upload_priam.Size = new System.Drawing.Size(75, 68);
+            this.but_upload_priam.Size = new System.Drawing.Size(77, 70);
             this.but_upload_priam.TabIndex = 48;
             this.but_upload_priam.Text = "Завантажити до файлу";
             this.but_upload_priam.UseVisualStyleBackColor = true;
@@ -515,7 +529,7 @@
             // 
             this.but_downoload_priam.Location = new System.Drawing.Point(743, 22);
             this.but_downoload_priam.Name = "but_downoload_priam";
-            this.but_downoload_priam.Size = new System.Drawing.Size(75, 68);
+            this.but_downoload_priam.Size = new System.Drawing.Size(77, 70);
             this.but_downoload_priam.TabIndex = 49;
             this.but_downoload_priam.Text = "Вигрузити із файлу";
             this.but_downoload_priam.UseVisualStyleBackColor = true;
@@ -614,7 +628,7 @@
             // 
             // button_priam_area
             // 
-            this.button_priam_area.Location = new System.Drawing.Point(234, 175);
+            this.button_priam_area.Location = new System.Drawing.Point(266, 175);
             this.button_priam_area.Name = "button_priam_area";
             this.button_priam_area.Size = new System.Drawing.Size(102, 35);
             this.button_priam_area.TabIndex = 61;
@@ -634,7 +648,7 @@
             // 
             // button_rivn_area
             // 
-            this.button_rivn_area.Location = new System.Drawing.Point(627, 177);
+            this.button_rivn_area.Location = new System.Drawing.Point(655, 174);
             this.button_rivn_area.Name = "button_rivn_area";
             this.button_rivn_area.Size = new System.Drawing.Size(102, 35);
             this.button_rivn_area.TabIndex = 66;
@@ -671,7 +685,7 @@
             // 
             // button_rivnobed_area
             // 
-            this.button_rivnobed_area.Location = new System.Drawing.Point(984, 176);
+            this.button_rivnobed_area.Location = new System.Drawing.Point(1011, 176);
             this.button_rivnobed_area.Name = "button_rivnobed_area";
             this.button_rivnobed_area.Size = new System.Drawing.Size(102, 35);
             this.button_rivnobed_area.TabIndex = 70;
@@ -706,11 +720,151 @@
             this.label23.TabIndex = 67;
             this.label23.Text = "Площина рівнобедрених трикутників";
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(187, 476);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(29, 17);
+            this.label24.TabIndex = 71;
+            this.label24.Text = "см²";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(621, 475);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(29, 17);
+            this.label25.TabIndex = 72;
+            this.label25.Text = "см²";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(968, 475);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(29, 17);
+            this.label26.TabIndex = 73;
+            this.label26.Text = "см²";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(231, 184);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(29, 17);
+            this.label27.TabIndex = 74;
+            this.label27.Text = "см²";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(624, 184);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(29, 17);
+            this.label28.TabIndex = 75;
+            this.label28.Text = "см²";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(979, 183);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(29, 17);
+            this.label29.TabIndex = 76;
+            this.label29.Text = "см²";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(187, 534);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(24, 17);
+            this.label30.TabIndex = 77;
+            this.label30.Text = "см";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(621, 534);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(24, 17);
+            this.label31.TabIndex = 78;
+            this.label31.Text = "см";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(968, 534);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(24, 17);
+            this.label32.TabIndex = 79;
+            this.label32.Text = "см";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(149, 350);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(24, 17);
+            this.label33.TabIndex = 80;
+            this.label33.Text = "см";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(282, 350);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(24, 17);
+            this.label34.TabIndex = 81;
+            this.label34.Text = "см";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(580, 350);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(24, 17);
+            this.label35.TabIndex = 82;
+            this.label35.Text = "см";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(927, 351);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(24, 17);
+            this.label36.TabIndex = 83;
+            this.label36.Text = "см";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(1064, 351);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(24, 17);
+            this.label38.TabIndex = 85;
+            this.label38.Text = "см";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1267, 626);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label36);
+            this.Controls.Add(this.label35);
+            this.Controls.Add(this.label34);
+            this.Controls.Add(this.label33);
+            this.Controls.Add(this.label32);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
             this.Controls.Add(this.button_rivnobed_area);
             this.Controls.Add(this.textBox_rivnobed_area);
             this.Controls.Add(this.label22);
@@ -852,6 +1006,20 @@
         private System.Windows.Forms.TextBox textBox_rivnobed_area;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label38;
     }
 }
 
